@@ -68,6 +68,7 @@ public class AutorService {
         return repository.findAll();
     }
 
+    // Pesquisa de todos os campos, com  example matcher
     public List<Autor> pesquisaByExample(String nome, String nacionalidade){
         var autor = new Autor();
         autor.setNome(nome);
